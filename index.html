@@ -3,44 +3,68 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Balance Brew Cafe — Coffee &amp; Comfort Food on Balewadi High Street, Baner, Pune</title>
-<meta name="description" content="The Balance Brew Cafe is a pet-friendly cafe on Balewadi High Street, Baner, Pune. Coffee, comfort food and room to slow down. Call +91 84468 53942.">
+<title>The Balance Brew Cafe — Coffee, Comfort Food &amp; Slow Evenings in Baner, Pune</title>
+<meta name="description" content="The Balance Brew Cafe on Balewadi High Street, Baner, Pune. Coffee, comfort food and a pet-friendly room to slow down in. Book a table or call +91 84468 53942.">
 <link rel="canonical" href="https://devzone940.github.io/balance-brew-cafe/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://devzone940.github.io/balance-brew-cafe/">
 <meta property="og:site_name" content="The Balance Brew Cafe">
 <meta property="og:title" content="The Balance Brew Cafe — Balewadi High Street, Baner">
 <meta property="og:description" content="Coffee, comfort food and room to slow down. A pet-friendly cafe in Baner, Pune.">
-<meta property="og:locale" content="en_IN">
+<meta property="og:image" content="https://devzone940.github.io/balance-brew-cafe/assets/hero-cafe.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F6F2EA">
-<meta name="robots" content="index,follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/hero-cafe.jpg">
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "CafeOrCoffeeShop",
   "name": "The Balance Brew Cafe",
+  "image": "https://devzone940.github.io/balance-brew-cafe/assets/hero-cafe.jpg",
   "telephone": "+91 84468 53942",
-  "servesCuisine": "Coffee, comfort food",
+  "servesCuisine": ["Coffee","Pizza","Burger","Pasta","Healthy Food"],
+  "priceRange": "₹₹",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "R2, Daisy Society, Lalit Estate, Balewadi High Street Junction",
+    "streetAddress": "Plot 24, Serve 85 A/2, Daisy Lalit Estate, Balewadi High Street Junction",
     "addressLocality": "Baner, Pune",
     "addressRegion": "Maharashtra",
     "postalCode": "411069",
     "addressCountry": "IN"
   },
   "geo": { "@type": "GeoCoordinates", "latitude": 18.5620578, "longitude": 73.7772499 },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "322" }
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "322" },
+  "openingHours": "Mo-Su 11:00-23:00",
+  "acceptsReservations": "True"
 }
 </script>
+<noscript><style>
+.reveal,.reveal-img,.split .ch,.dish{opacity:1!important;transform:none!important;clip-path:none!important}
+.reveal-img img{transform:none!important}
+.intro{display:none!important}
+.hero-media img{transform:none!important}
+</style></noscript>
 </head>
 <body>
 
 <a class="skip" href="#main">Skip to content</a>
+
+<div class="progress" id="progress" aria-hidden="true"><span></span></div>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-mark">
+    <span>T</span><span>h</span><span>e</span>
+    <span class="sp"></span>
+    <span>B</span><span>a</span><span>l</span><span>a</span><span>n</span><span>c</span><span>e</span>
+    <span class="sp"></span>
+    <span>B</span><span>r</span><span>e</span><span>w</span>
+  </div>
+  <div class="intro-bar"><i></i></div>
+</div>
 
 <header class="site-header" id="siteHeader">
   <div class="shell header-inner">
@@ -51,7 +75,8 @@
     <nav class="nav" id="nav" aria-label="Primary">
       <a href="#story">Story</a>
       <a href="#menu">Menu</a>
-      <a href="#visit">Visit</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#book">Book a table</a>
       <a class="nav-cta" href="tel:+918446853942">Call us</a>
     </nav>
     <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
@@ -62,43 +87,33 @@
 
 <main id="main">
 
+  <!-- ============ HERO ============ -->
   <section class="hero" id="top">
-    <div class="shell hero-grid">
-      <div class="hero-main">
-        <p class="kicker reveal">Balewadi High Street · Baner · Pune</p>
-        <h1 class="reveal">
-          Find your <em>pause.</em>
-        </h1>
-        <p class="hero-lede reveal">
-          Coffee, comfort food and room to slow down — a neighbourhood cafe on
-          Balewadi High Street, and a pet-friendly one at that.
-        </p>
-        <div class="hero-actions reveal">
-          <a class="btn btn-solid" href="tel:+918446853942">
-            Call the cafe
-            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3.5h3l1 3-1.6 1.2a8 8 0 0 0 3 3L9.5 9l3 1v3a1 1 0 0 1-1.1 1A11 11 0 0 1 2.5 4.6 1 1 0 0 1 3.5 3.5Z"/></svg>
-          </a>
-          <a class="btn btn-line" href="#menu">See the menu</a>
-        </div>
-      </div>
-
-      <aside class="hero-aside reveal" aria-label="Cafe at a glance">
-        <div class="aside-block">
-          <p class="aside-label">Google rating</p>
-          <p class="aside-figure">4.8<span>/5</span></p>
-          <p class="aside-note">from 322 reviews</p>
-        </div>
-        <div class="aside-block">
-          <p class="aside-label">Today</p>
-          <p class="aside-figure small">Open</p>
-          <p class="aside-note">until 11:00 PM · call for other days</p>
-        </div>
-        <div class="aside-block">
-          <p class="aside-label">Good to know</p>
-          <p class="aside-note flush">Pet friendly · open air seating · part of Baner's Balewadi High Street</p>
-        </div>
-      </aside>
+    <div class="hero-media" data-parallax="0.18">
+      <img src="assets/hero-cafe.jpg" alt="Warm open-air seating at The Balance Brew Cafe" fetchpriority="high">
     </div>
+    <div class="hero-veil"></div>
+    <div class="shell hero-inner">
+      <p class="kicker reveal">Balewadi High Street · Baner · Pune</p>
+      <h1 class="split">Find your pause.</h1>
+      <p class="hero-lede reveal">Coffee, comfort food and room to slow down. A pet-friendly cafe at the junction where Baner turns into Balewadi.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-cream" href="#book">
+          Book a table
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="#menu">See the menu</a>
+      </div>
+    </div>
+    <div class="hero-strip">
+      <div class="shell hero-strip-inner">
+        <div class="stat reveal"><span class="stat-n" data-count="4.8" data-dec="1">0</span><span class="stat-l">Google rating</span></div>
+        <div class="stat reveal"><span class="stat-n" data-count="322">0</span><span class="stat-l">reviews</span></div>
+        <div class="stat reveal"><span class="stat-n" data-prefix="₹" data-count="250">0</span><span class="stat-l">for two</span></div>
+        <div class="stat reveal"><span class="stat-n tiny">11<span class="amp">am</span>–11<span class="amp">pm</span></span><span class="stat-l">open today</span></div>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#story" aria-label="Scroll to the story"><i></i></a>
   </section>
 
   <div class="ticker" aria-hidden="true">
@@ -110,99 +125,219 @@
     </div>
   </div>
 
-  <section class="section" id="story">
+  <!-- ============ STORY ============ -->
+  <section class="section story" id="story">
     <div class="shell story-grid">
-      <div class="reveal">
-        <p class="kicker">The story</p>
-        <h2>A cafe built for the<br>in-between hours.</h2>
+      <div class="story-media">
+        <figure class="media-frame reveal-img">
+          <img src="assets/coffee-matcha.jpg" alt="A latte and a matcha latte on a marble table" loading="lazy">
+        </figure>
+        <figure class="media-frame offset reveal-img">
+          <img src="assets/corner-reading.jpg" alt="A quiet corner with books, plants and a warm lamp" loading="lazy">
+        </figure>
       </div>
-      <div class="reveal prose">
-        <p class="dropcap">
-          The Balance Brew sits on Balewadi High Street, just past the junction where Baner
-          turns into Balewadi. It is the kind of place that works at ten in the morning with
-          a laptop, at four in the afternoon with a friend, and at nine at night when you
-          want one more hour before going home.
-        </p>
-        <p>
-          The room is calm rather than loud — easy corners, open air, and a playlist that
-          stays in the background. Coffee is brewed to order, and the kitchen turns out the
-          comfort food people come back for: stuffed breads, fresh rolls, breakfast platters,
-          burgers and pizza.
-        </p>
-        <p>
-          Dogs are welcome. That is not a footnote here; it is part of why the regulars keep
-          coming back.
-        </p>
+      <div class="story-copy">
+        <p class="kicker reveal">The story</p>
+        <h2 class="reveal">A cafe built for the<br>in-between hours.</h2>
+        <div class="prose reveal">
+          <p class="dropcap">The Balance Brew sits on Balewadi High Street, just past the junction where Baner turns into Balewadi. It works at eleven in the morning with a laptop, at four in the afternoon with a friend, and at nine at night when you want one more hour before going home.</p>
+          <p>The room is calm rather than loud — easy corners, open air, a playlist that stays in the background. Coffee is brewed to order and the kitchen turns out the comfort food people come back for: stuffed breads, fresh rolls, breakfast platters, burgers and pizza.</p>
+          <p>Dogs are welcome. That is not a footnote here; it is part of why the regulars keep coming back.</p>
+        </div>
+        <ul class="pill-row reveal">
+          <li>Pet friendly</li><li>Open air</li><li>Coffee &amp; shakes</li><li>Pizza &amp; burgers</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <section class="section section-tint" id="menu">
+  <!-- ============ MENU ============ -->
+  <section class="section section-tint menu-section" id="menu">
     <div class="shell">
-      <div class="menu-head reveal">
-        <p class="kicker">From the kitchen</p>
-        <h2>A short list, done properly.</h2>
-        <p class="menu-intro">
-          A handful of what the cafe is known for. The full menu is at the counter,
-          and it changes.
-        </p>
+      <div class="menu-head">
+        <div>
+          <p class="kicker reveal">From the kitchen</p>
+          <h2 class="reveal">A short list,<br>done properly.</h2>
+        </div>
+        <div class="menu-head-side reveal">
+          <p>Brewed to order, cooked to finish. The counter has the full list and it changes with the season.</p>
+          <p class="notice"><span class="dot"></span> Sample prices for layout review — confirm the live menu with the cafe.</p>
+        </div>
       </div>
 
-      <div class="menu-grid">
-        <article class="menu-item reveal"><span class="menu-idx">01</span><h3>Matcha</h3><p>Slow, creamy and worth sitting with.</p></article>
-        <article class="menu-item reveal"><span class="menu-idx">02</span><h3>Five Spice Burger</h3><p>Warm spice, a proper handful.</p></article>
-        <article class="menu-item reveal"><span class="menu-idx">03</span><h3>English Breakfast Platter</h3><p>For the mornings that start late.</p></article>
-        <article class="menu-item reveal"><span class="menu-idx">04</span><h3>Exotic Chicken Pizza</h3><p>Built to be shared, ordered again.</p></article>
-        <article class="menu-item reveal"><span class="menu-idx">05</span><h3>Stuffed Breads</h3><p>Comfort food, held in one hand.</p></article>
-        <article class="menu-item reveal"><span class="menu-idx">06</span><h3>Fresh Rolls &amp; Healthy Snacks</h3><p>The lighter side of the counter.</p></article>
+      <div class="tabs reveal" role="tablist" aria-label="Menu categories">
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="coffee">Coffee &amp; Shakes</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="breakfast">Breakfast</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="mains">Burgers &amp; Pizza</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="healthy">Healthy &amp; Rolls</button>
       </div>
 
-      <p class="menu-foot reveal">
-        Items and prices change with the season — call
-        <a href="tel:+918446853942">+91 84468 53942</a> for today's menu.
-      </p>
+      <div class="menu-panels">
+        <div class="panel is-active" data-panel="coffee" role="tabpanel">
+          <article class="dish"><div><h3>Matcha</h3><p>Slow, creamy, whisked to order.</p></div><span class="price">₹260</span></article>
+          <article class="dish"><div><h3>Flat White</h3><p>Double shot, soft milk.</p></div><span class="price">₹180</span></article>
+          <article class="dish"><div><h3>Cappuccino</h3><p>Classic, cocoa on top.</p></div><span class="price">₹160</span></article>
+          <article class="dish"><div><h3>Cold Coffee</h3><p>Thick, blended, not too sweet.</p></div><span class="price">₹190</span></article>
+          <article class="dish"><div><h3>Iced Latte</h3><p>Over a full glass of ice.</p></div><span class="price">₹200</span></article>
+          <article class="dish"><div><h3>Chocolate Shake</h3><p>Dark cocoa, whipped cream.</p></div><span class="price">₹220</span></article>
+        </div>
+
+        <div class="panel" data-panel="breakfast" role="tabpanel">
+          <article class="dish"><div><h3>English Breakfast Platter</h3><p>Eggs, toast, beans, grilled tomato.</p></div><span class="price">₹380</span></article>
+          <article class="dish"><div><h3>Masala Omelette</h3><p>Three eggs, onion, chilli, buttered toast.</p></div><span class="price">₹220</span></article>
+          <article class="dish"><div><h3>Butter Croissant</h3><p>Warm, flaky, with jam.</p></div><span class="price">₹150</span></article>
+          <article class="dish"><div><h3>Avocado Toast</h3><p>Sourdough, chilli oil, lemon.</p></div><span class="price">₹290</span></article>
+          <article class="dish"><div><h3>Pancake Stack</h3><p>Three high, maple, berries.</p></div><span class="price">₹310</span></article>
+        </div>
+
+        <div class="panel" data-panel="mains" role="tabpanel">
+          <article class="dish"><div><h3>Five Spice Burger</h3><p>Warm spice, a proper handful.</p></div><span class="price">₹340</span></article>
+          <article class="dish"><div><h3>Exotic Chicken Pizza</h3><p>Built to be shared, ordered again.</p></div><span class="price">₹460</span></article>
+          <article class="dish"><div><h3>Margherita</h3><p>San Marzano, basil, mozzarella.</p></div><span class="price">₹360</span></article>
+          <article class="dish"><div><h3>Pasta Alfredo</h3><p>Penne, cream, cracked pepper.</p></div><span class="price">₹350</span></article>
+          <article class="dish"><div><h3>Peri Peri Fries</h3><p>Hot, salty, gone quickly.</p></div><span class="price">₹190</span></article>
+        </div>
+
+        <div class="panel" data-panel="healthy" role="tabpanel">
+          <article class="dish"><div><h3>Non Veg Caesar Crunch</h3><p>Crisp lettuce, grilled chicken, parmesan.</p></div><span class="price">₹330</span></article>
+          <article class="dish"><div><h3>Fresh Rolls</h3><p>Rice paper, herbs, peanut dip.</p></div><span class="price">₹280</span></article>
+          <article class="dish"><div><h3>Stuffed Breads</h3><p>Comfort food, held in one hand.</p></div><span class="price">₹240</span></article>
+          <article class="dish"><div><h3>Grain Bowl</h3><p>Quinoa, roast veg, yoghurt drizzle.</p></div><span class="price">₹320</span></article>
+          <article class="dish"><div><h3>Seasonal Salad</h3><p>Whatever is best that week.</p></div><span class="price">₹260</span></article>
+        </div>
+      </div>
+
+      <p class="menu-foot reveal">Prices are indicative and for design review only. Call <a href="tel:+918446853942">+91 84468 53942</a> for today's menu.</p>
     </div>
   </section>
 
-  <section class="section" id="visit">
+  <!-- ============ GALLERY ============ -->
+  <section class="section gallery-section" id="gallery">
+    <div class="shell">
+      <div class="gallery-head">
+        <p class="kicker reveal">The room</p>
+        <h2 class="reveal">Corners worth<br>staying in.</h2>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <figure class="shot span-2 reveal-img"><img src="assets/hero-cafe.jpg" alt="Open-air seating at golden hour" loading="lazy"></figure>
+      <figure class="shot reveal-img"><img src="assets/food-spread.jpg" alt="A table spread of burger, pizza and breakfast" loading="lazy"></figure>
+      <figure class="shot reveal-img"><img src="assets/pet-friendly.jpg" alt="A dog resting under a cafe table" loading="lazy"></figure>
+      <figure class="shot span-2 reveal-img"><img src="assets/exterior-dusk.jpg" alt="The cafe exterior at dusk" loading="lazy"></figure>
+      <figure class="shot reveal-img"><img src="assets/corner-reading.jpg" alt="A quiet reading corner" loading="lazy"></figure>
+      <figure class="shot reveal-img"><img src="assets/coffee-matcha.jpg" alt="Latte and matcha on marble" loading="lazy"></figure>
+    </div>
+    <p class="shell gallery-note">Imagery is illustrative and stands in for the cafe's own photography.</p>
+  </section>
+
+  <!-- ============ BOOK A TABLE ============ -->
+  <section class="section book-section" id="book">
+    <div class="shell book-grid">
+      <div class="book-copy">
+        <p class="kicker reveal">Reserve</p>
+        <h2 class="reveal">Order your table.<br><em>We'll keep it warm.</em></h2>
+        <p class="reveal book-lede">Tell us when you're coming and how many of you. Your request opens in WhatsApp, already filled in — one tap to send it to the cafe.</p>
+        <dl class="book-facts reveal">
+          <div><dt>Today</dt><dd>11:00 AM – 11:00 PM</dd></div>
+          <div><dt>Seats</dt><dd>Indoor and open air</dd></div>
+          <div><dt>Dogs</dt><dd>Always welcome</dd></div>
+        </dl>
+      </div>
+
+      <form class="book-form reveal" id="bookForm" novalidate>
+        <div class="field">
+          <label for="bk-name">Your name</label>
+          <input id="bk-name" name="name" type="text" autocomplete="name" placeholder="Who's the table for?" required>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="bk-phone">Phone</label>
+            <input id="bk-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="10-digit number" required>
+          </div>
+          <div class="field">
+            <label for="bk-guests">Guests</label>
+            <select id="bk-guests" name="guests">
+              <option>1</option><option selected>2</option><option>3</option><option>4</option>
+              <option>5</option><option>6</option><option>7</option><option>8+</option>
+            </select>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="bk-date">Date</label>
+            <input id="bk-date" name="date" type="date" required>
+          </div>
+          <div class="field">
+            <label for="bk-time">Time</label>
+            <input id="bk-time" name="time" type="time" value="19:00" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="bk-note">Anything we should know?</label>
+          <input id="bk-note" name="note" type="text" placeholder="Birthday, quiet corner, bringing a dog…">
+        </div>
+        <button class="btn btn-solid btn-wide" type="submit">
+          Order this table
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </button>
+        <p class="form-msg" id="bookMsg" role="status" aria-live="polite"></p>
+        <p class="form-fine">Opens WhatsApp with your details filled in. The cafe confirms on the number you give.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ MEMBERSHIP ============ -->
+  <section class="section members" id="members">
+    <div class="shell members-grid">
+      <div class="members-copy">
+        <p class="kicker light reveal">The Regulars</p>
+        <h2 class="reveal">A card for the people<br>who keep coming back.</h2>
+        <p class="reveal members-lede">Ten coffees, one on the house. Early word on new menus, and a table held on the nights that fill up. Join in the shop or leave your number here.</p>
+        <ul class="perks reveal">
+          <li><span>01</span>Every tenth coffee is ours</li>
+          <li><span>02</span>First look at seasonal menus</li>
+          <li><span>03</span>Priority tables on weekends</li>
+        </ul>
+      </div>
+      <form class="member-form reveal" id="memberForm" novalidate>
+        <p class="member-form-title">Join the list</p>
+        <div class="field">
+          <label for="mb-name">Name</label>
+          <input id="mb-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="mb-phone">Phone</label>
+          <input id="mb-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="10-digit number" required>
+        </div>
+        <button class="btn btn-cream btn-wide" type="submit">Join The Regulars</button>
+        <p class="form-msg light" id="memberMsg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ VISIT ============ -->
+  <section class="section visit" id="visit">
     <div class="shell visit-grid">
-      <div class="reveal">
-        <p class="kicker">Find us</p>
-        <h2>Next to Kalyan Jewellers,<br>before Balewadi High Street.</h2>
-        <address class="address">
-          R2, Daisy Society, Lalit Estate,<br>
+      <div>
+        <p class="kicker reveal">Find us</p>
+        <h2 class="reveal">Next to Kalyan Jewellers,<br>before Balewadi High Street.</h2>
+        <address class="address reveal">
+          Plot 24, Serve 85 A/2, Daisy Lalit Estate,<br>
           Balewadi High Street Junction,<br>
           Baner, Pune, Maharashtra 411069
         </address>
-        <dl class="details">
+        <dl class="details reveal">
           <div><dt>Phone</dt><dd><a href="tel:+918446853942">+91 84468 53942</a></dd></div>
-          <div><dt>Directions</dt><dd>Coming from Baner, take a left just after the Kalyan Jewellers turning, before Balewadi High Street.</dd></div>
-          <div><dt>Good to know</dt><dd>Pet friendly, with open air seating.</dd></div>
+          <div><dt>Hours</dt><dd>11:00 AM – 11:00 PM, as listed on Zomato</dd></div>
+          <div><dt>Directions</dt><dd>Coming from Baner, take a left just after the Kalyan Jewellers turning</dd></div>
         </dl>
-        <div class="visit-actions">
-          <a class="btn btn-solid" href="https://www.google.com/maps/search/?api=1&query=The+Balance+Brew+Cafe+Lalit+Estate+Balewadi+High+Street+Baner+Pune+411069" target="_blank" rel="noopener">
-            Get directions
-            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 4 12"/></svg>
-          </a>
-          <a class="btn btn-line" href="https://wa.me/918446853942" target="_blank" rel="noopener">WhatsApp us</a>
+        <div class="visit-actions reveal">
+          <a class="btn btn-solid" href="https://www.google.com/maps/search/?api=1&query=The+Balance+Brew+Cafe+Lalit+Estate+Balewadi+High+Street+Baner+Pune+411069" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn btn-line" href="https://wa.me/918446853942" target="_blank" rel="noopener">WhatsApp the cafe</a>
         </div>
       </div>
-      <div class="reveal map-card">
-        <iframe
-          title="Map showing The Balance Brew Cafe in Baner, Pune"
-          src="https://maps.google.com/maps?q=18.5620578,73.7772499&z=16&output=embed"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
-  </section>
-
-  <section class="closer">
-    <div class="shell closer-inner">
-      <p class="kicker light reveal">Come by</p>
-      <h2 class="reveal">The playlist hums.<br>The coffee steams.<br><em>Stay a while.</em></h2>
-      <div class="closer-actions reveal">
-        <a class="btn btn-cream" href="tel:+918446853942">+91 84468 53942</a>
-        <a class="btn btn-ghost-light" href="https://wa.me/918446853942" target="_blank" rel="noopener">Message on WhatsApp</a>
+      <div class="map-card reveal">
+        <iframe title="Map showing The Balance Brew Cafe in Baner, Pune" src="https://maps.google.com/maps?q=18.5620578,73.7772499&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </section>
@@ -222,10 +357,7 @@
       </p>
     </div>
     <div>
-      <p class="footer-small">
-        Cafe details and images shown here reflect the cafe's public Google listing
-        and its own published social posts. Ratings are as shown on Google.
-      </p>
+      <p class="footer-small">Details reflect the cafe's public Google listing, its Zomato listing and its own published posts. Menu prices are samples for design review. Imagery is illustrative and would be replaced with the cafe's own photography.</p>
     </div>
   </div>
 </footer>
